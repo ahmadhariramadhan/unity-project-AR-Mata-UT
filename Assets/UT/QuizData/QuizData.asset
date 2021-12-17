@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8357148dc8aa75a43976e1c42963823b, type: 3}
+  m_Name: QuizData
+  m_EditorClassIdentifier: 
+  id: 1
+  scoreMax: 0
+  ComponentQuiz:
+  - score: 1
+    imageQuiz: {fileID: 0}
+    description: Dalam keadaan mata normal maka lensa mata manusia dapat secara fleksibel
+      menyesuaikan diri sehingga bayangan obyek pada jarak tertentu di depan mata
+      dapat dilihat dengan jelas dan tajam.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 1
+    - descChoice: Salah
+      correctAnswer: 0
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: Mata manusia tidak berbentuk bola bundar.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 0
+    - descChoice: Salah
+      correctAnswer: 1
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: "Lensa mata memfokuskan cahaya yang datang dengan menggunakan sistem
+      lensa positif sehingga tepat jatuh di retina sebagai bayangan riil yang tajam
+      pada layar sensitif cahaya yang kita sebut retina.\r"
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 1
+    - descChoice: Salah
+      correctAnswer: 0
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: Mata mengandung bahan seperti jelly yang dibungkus oleh membran/kulit
+      keras yang elastis yang disebut kornea.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 0
+    - descChoice: Salah
+      correctAnswer: 1
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: Lapisan sel penerima cahaya yang terdapat pada mata disebut pupil.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 0
+    - descChoice: Salah
+      correctAnswer: 1
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: Salah satu cacat mata disebut rabun dekat (hyperopia atau farsightdness). 
+      Cacat ini dapat diperbaiki dengan menambahkan lensa cekung.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 0
+    - descChoice: Salah
+      correctAnswer: 1
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: Seseorang yang mengalami rabun jauh Bayangan obyek jatuh jauh di
+      depan retina mata.
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 1
+    - descChoice: Salah
+      correctAnswer: 0
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: 'Astigmatisme terjadi pada beberapa orang karena bola matanya tidak
+      benar-benar berbentuk sferis sempurna. '
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 1
+    - descChoice: Salah
+      correctAnswer: 0
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: "Jumlah sinar yang masuk ke mata pertama kali di atur oleh iris
+      yang memiliki bukaan yang dapat di atur oleh pupil.\r"
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 1
+    - descChoice: Salah
+      correctAnswer: 0
+  - score: 1
+    imageQuiz: {fileID: 2800000, guid: d53f5f1e307cdcb4f94d80772b7c4d7f, type: 3}
+    description: "Ruang kecil diantara kornea dan lensa diisi dengan cairan jerniah
+      seperti air yang disebut vitreous humor dengan indeks bias naq \u2248 1,336."
+    choiceComponents:
+    - descChoice: Benar
+      correctAnswer: 0
+    - descChoice: Salah
+      correctAnswer: 1
