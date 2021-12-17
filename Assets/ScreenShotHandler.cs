@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ScreenShotHandler : MonoBehaviour
 {
-    [SerializeField]
     private bool takingScreenshot;
     [SerializeField]
     private GameObject buttonSave;

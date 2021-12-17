@@ -15,13 +15,11 @@ public class VoiceOver : MonoBehaviour
     private void Awake() {
         audioSource = this.gameObject.AddComponent<AudioSource>();
     }
-    private void OnEnable() {
-        
-       PlayVoice();
-    //    playTogle();
+    private void Start() {
+       PlayVoiceOver();
     }
 
-    private void PlayVoice(){
+    private void PlayVoiceOver(){
         SoundFX.Instance.PlayVoice(voiceIndex,audioSource);
     }
 
@@ -32,7 +30,7 @@ public class VoiceOver : MonoBehaviour
             imageSound.sprite = spriteSound[1];
         }else{
             audioSource.enabled=true;
-           imageSound.sprite = spriteSound[0]; 
+            imageSound.sprite = spriteSound[0]; 
         }
         
     }

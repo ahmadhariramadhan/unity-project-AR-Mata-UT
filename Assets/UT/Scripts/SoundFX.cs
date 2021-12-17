@@ -28,5 +28,10 @@ public class SoundFX : MonoBehaviour
         _audio.Play();
     }
 
+    public void StopVoice(int index,AudioSource _audio) {
+        _audio.clip = audioClip[index];
+        _audio.Stop();
+    }
+
 
 }

@@ -136,4 +136,8 @@ public class MainMenuManager : MonoBehaviour
         cg.alpha = 0;
         LeanTween.alphaCanvas(cg, 1, .5f);
     }
+
+    public void DownloadMarker(string _url){
+        Application.OpenURL(_url);
+    }
 }
