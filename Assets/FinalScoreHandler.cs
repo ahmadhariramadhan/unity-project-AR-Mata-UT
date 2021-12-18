@@ -25,18 +25,22 @@ public class FinalScoreHandler : MonoBehaviour
     }
 
     private void CheckTask(){
+        
         if (StaticData.doneTaskBagianMata==true)
         {
             taskBagianMata.color = Color.green;
-        }else if (StaticData.doneTaskProsesMata==true)
+        }
+        if (StaticData.doneTaskProsesMata==true)
         {
-            taskBagianMata.color = Color.green;
-        }else if (StaticData.doneTaskRabunDekat==true)
+            taskProsesMata.color = Color.green;
+        }
+        if (StaticData.doneTaskRabunDekat==true)
         {
-            taskBagianMata.color = Color.green;
-        }else if (StaticData.doneTaskRabunJauh==true)
+            taskRabunDekat.color = Color.green;
+        }
+        if (StaticData.doneTaskRabunJauh==true)
         {
-            taskBagianMata.color = Color.green;
+            taskRabunJauh.color = Color.green;
         }
     }
 }

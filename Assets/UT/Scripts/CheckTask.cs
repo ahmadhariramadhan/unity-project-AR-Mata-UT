@@ -4,48 +4,68 @@ using UnityEngine;
 
 public class CheckTask : MonoBehaviour
 {
-    
-    public bool checkTask;
+    public bool checkTaskBagianMata;
+    public bool checkTaskProsesMata;
+    public bool checkTaskRabunJauh;
+    public bool checkTaskRabunDekat;
+    public bool checkTaskCpuMk;
     public Task taskChoice;
     public enum Task{
         taskBagianMata,
         taskProsesMata,
         taskRabunJauh,
-        taskRabunDekat
+        taskRabunDekat,
+        cpuMK
+    }
+    private void Awake() {
+        CheckStaticTask();
     }
 
-    private void OnEnable() {
-        if (!checkTask)
-        {
-            CheckTaskDone();
-            print(checkTask);
-        }return;
+    private void Start() {
+        CheckTaskDone(); 
     }
 
-
-
+    public void CheckTasks(){
+        CheckTaskDone();
+    }
     private void CheckTaskDone(){
+        
         switch (taskChoice)
         {
             case Task.taskBagianMata : 
-                checkTask = true;
-                StaticData.doneTaskBagianMata = checkTask;
+                checkTaskBagianMata = true;
+                StaticData.doneTaskBagianMata = checkTaskBagianMata;
                 break;
             case Task.taskProsesMata:
-                checkTask = true;
-                StaticData.doneTaskProsesMata = checkTask;
-                break;
-            case Task.taskRabunDekat:
-                checkTask = true;
-                StaticData.doneTaskRabunDekat = checkTask;
+                checkTaskProsesMata = true;
+                StaticData.doneTaskProsesMata = checkTaskProsesMata;
                 break;
             case Task.taskRabunJauh:
-                checkTask = true;
-                StaticData.doneTaskRabunJauh = checkTask;
+                checkTaskRabunJauh = true;
+                StaticData.doneTaskRabunJauh = checkTaskRabunJauh;
+                break;
+            case Task.taskRabunDekat:
+                checkTaskRabunDekat = true;
+                StaticData.doneTaskRabunDekat = checkTaskRabunDekat;
                 break;
             default:
             break;
         }
         
+    }
+
+    public void TaskCpuMk(){
+        if(taskChoice==Task.cpuMK){
+            checkTaskCpuMk = true;
+            StaticData.doneTaskCpuMk = checkTaskCpuMk;
+        }
+    }
+
+    private void CheckStaticTask(){
+        checkTaskBagianMata = StaticData.doneTaskBagianMata;
+        checkTaskProsesMata = StaticData.doneTaskProsesMata;
+        checkTaskRabunDekat = StaticData.doneTaskRabunDekat;
+        checkTaskRabunJauh = StaticData.doneTaskRabunJauh;
+        checkTaskCpuMk = StaticData.doneTaskCpuMk;
     }
 }
