@@ -1,0 +1,173 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/Side Project/2021/Universitas Terbuka/unity-project-AR-Mata-UT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57609
+Successfully changed project path to: D:/Work/Side Project/2021/Universitas Terbuka/unity-project-AR-Mata-UT
+D:/Work/Side Project/2021/Universitas Terbuka/unity-project-AR-Mata-UT
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/Side Project/2021/Universitas Terbuka/unity-project-AR-Mata-UT/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001318 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.517300 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.092200 ms  DeleteObjects: 0.083100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UT/CaraMataMelihatBenda.prefab
+  artifactKey: Guid(ed33b0e253b1c184cbe461306e6b8622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/CaraMataMelihatBenda.prefab using Guid(ed33b0e253b1c184cbe461306e6b8622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637b10b43f058952d33d03910cdc125') in 0.294498 seconds
+  Import took 0.299116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561169 seconds.
+  path: Assets/UT/CaraMataMelihatBenda.prefab
+  artifactKey: Guid(ed33b0e253b1c184cbe461306e6b8622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/CaraMataMelihatBenda.prefab using Guid(ed33b0e253b1c184cbe461306e6b8622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637b10b43f058952d33d03910cdc125') in 0.104600 seconds
+  Import took 0.108696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.298640 seconds.
+  path: Assets/EyePartHandler.cs
+  artifactKey: Guid(13029a2465535a845b53376fb3865a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EyePartHandler.cs using Guid(13029a2465535a845b53376fb3865a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b917002ac9351ff863712579e87863') in 0.022793 seconds
+  Import took 0.026891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053224 seconds.
+  path: Assets/CustomButton.cs
+  artifactKey: Guid(bfabc1da58fa78c4e9e6e33a8988854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomButton.cs using Guid(bfabc1da58fa78c4e9e6e33a8988854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcbd7f9c7ce9b5e5f18eba90c664158') in 0.005628 seconds
+  Import took 0.009030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004294 seconds.
+  path: Assets/UT/Model/LineRender/LineRendMat.mat
+  artifactKey: Guid(a6db77d4e7548d240bf6aea6e30aa5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/Model/LineRender/LineRendMat.mat using Guid(a6db77d4e7548d240bf6aea6e30aa5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135eb981b627445636e70ea89259eca8') in 0.467823 seconds
+  Import took 0.471088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052188 seconds.
+  path: Assets/UT/Model/CaraMataMelihat/Animations/Light.controller
+  artifactKey: Guid(79fb5a2644011a4479cd7590f0ca3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/Model/CaraMataMelihat/Animations/Light.controller using Guid(79fb5a2644011a4479cd7590f0ca3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963af41162677b7c87bae0154bbe7e33') in 0.008834 seconds
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046228 seconds.
+  path: Assets/ImageTargetHandler.cs
+  artifactKey: Guid(7068daf91e0a1e747aa1c0a50b605301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageTargetHandler.cs using Guid(7068daf91e0a1e747aa1c0a50b605301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8c409d8564b14ccb56a98fa03a7541') in 0.004612 seconds
+  Import took 0.008047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012690 seconds.
+  path: Assets/UT/2D/Background/circle_128.png
+  artifactKey: Guid(f70be92a295ffe048b0db353038dd00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/2D/Background/circle_128.png using Guid(f70be92a295ffe048b0db353038dd00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794f52bc73ad6dc824769ee7265d64b6') in 0.069318 seconds
+  Import took 0.073106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014748 seconds.
+  path: Assets/EyePart.cs
+  artifactKey: Guid(09227383a2a0b88438ea3d12f469d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EyePart.cs using Guid(09227383a2a0b88438ea3d12f469d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20b93a44bccb7894e73a147c95d07b8') in 0.004412 seconds
+  Import took 0.008403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013617 seconds.
+  path: Assets/UT/Model/CaraMataMelihat/Animations/light.anim
+  artifactKey: Guid(2799981da8f0ce84991c96cea914f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/Model/CaraMataMelihat/Animations/light.anim using Guid(2799981da8f0ce84991c96cea914f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8949c3a67dcb4ea87e268bf7cee812') in 0.007039 seconds
+  Import took 0.010062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004975 seconds.
+  path: Assets/HowToHandler.cs
+  artifactKey: Guid(737f3146d3abcc3469635c131e89b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HowToHandler.cs using Guid(737f3146d3abcc3469635c131e89b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8d39d3796296479b012e2b959d7c4e') in 0.004910 seconds
+  Import took 0.007449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012922 seconds.
+  path: Assets/UT/Model/CaraMataMelihat/Materials/light.mat
+  artifactKey: Guid(0e3286e6d3c32774b8b82e0fa93a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UT/Model/CaraMataMelihat/Materials/light.mat using Guid(0e3286e6d3c32774b8b82e0fa93a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6881aff5fbe8d5b4e7f0874ba620811') in 0.010612 seconds
+  Import took 0.013842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014905 seconds.
+  path: Assets/FinalScoreHandler.cs
+  artifactKey: Guid(ed1bf153108624e4f923a910f20d3ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FinalScoreHandler.cs using Guid(ed1bf153108624e4f923a910f20d3ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc653286579248dc9366c11c6a28a43') in 0.004219 seconds
+  Import took 0.007070 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
